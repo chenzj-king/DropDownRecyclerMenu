@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/dropdown_menu_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.sq580.dropdownmenu.DropdownMenu
+            android:id="@+id/dropdown_menu1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:iconColor="#222"
+            app:listBgColor="#fff"
+            app:titleBgColor="@android:color/white"
+            app:titleColor="#222"
+            app:titleHighLight="#eb5310"
+            app:titleText="状态状态状态状态状态状态"
+            app:titleTextSize="14sp"
+            />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            />
+
+        <com.sq580.dropdownmenu.DropdownMenu
+            android:id="@+id/dropdown_menu2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:iconColor="#222"
+            app:listBgColor="#fff"
+            app:titleBgColor="@android:color/white"
+            app:titleColor="#222"
+            app:titleHighLight="#eb5310"
+            app:titleText="状态状态状态状态状态状态"
+            app:titleTextSize="14sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/dropdown_menu_ll"
+        android:gravity="center"
+        android:text="内容区域"
+        android:textSize="25sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menu_title" type="id">false</item>
+    <item name="menu_icon" type="id">false</item>
+</resources>
