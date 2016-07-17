@@ -1,4 +1,4 @@
-package com.sq580.dropdownmenu;
+package com.dreamliner.dropdownmenu;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -18,11 +18,11 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.sq580.dropdownmenu.adapter.SelectAdapter;
-import com.sq580.dropdownmenu.interfaces.IGetTitle;
-import com.sq580.dropdownmenu.listener.OnDropdownItemClickListener;
-import com.sq580.dropdownmenu.listener.OnRecyclerItemClickListener;
-import com.sq580.dropdownmenu.widget.FontIcon;
+import com.dreamliner.dropdownmenu.adapter.SelectAdapter;
+import com.dreamliner.dropdownmenu.interfaces.IGetTitle;
+import com.dreamliner.dropdownmenu.listener.OnDropdownItemClickListener;
+import com.dreamliner.dropdownmenu.listener.OnRecyclerItemClickListener;
+import com.dreamliner.dropdownmenu.widget.FontIcon;
 
 /**
  * @author chenzj

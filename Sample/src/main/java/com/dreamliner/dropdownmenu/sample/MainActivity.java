@@ -1,11 +1,11 @@
-package com.sq580.dropdownmenu.sample;
+package com.dreamliner.dropdownmenu.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 
-import com.sq580.dropdownmenu.DropdownMenu;
-import com.sq580.dropdownmenu.adapter.SelectAdapter;
+import com.dreamliner.dropdownmenu.DropdownMenu;
+import com.dreamliner.dropdownmenu.adapter.SelectAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

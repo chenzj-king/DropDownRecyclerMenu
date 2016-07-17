@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.sq580.dropdownmenu.FixedHeightRecyclerView
+        <com.dreamliner.dropdownmenu.FixedHeightRecyclerView
             android:id="@+id/lv_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
