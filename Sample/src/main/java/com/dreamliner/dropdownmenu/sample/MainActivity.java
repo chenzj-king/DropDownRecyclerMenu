@@ -19,8 +19,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 
-import com.dreamliner.dropdownmenu.DropdownMenu;
-import com.dreamliner.dropdownmenu.adapter.SelectAdapter;
+import com.dreamliner.lib.dropdownmenu.DropdownMenu;
+import com.dreamliner.lib.dropdownmenu.adapter.SelectAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.dreamliner.dropdownmenu.interfaces;
+package com.dreamliner.lib.dropdownmenu.interfaces;
 
 /**
  * @author chenzj

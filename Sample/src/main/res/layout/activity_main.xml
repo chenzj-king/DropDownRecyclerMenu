@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.dreamliner.dropdownmenu.DropdownMenu
+        <com.dreamliner.lib.dropdownmenu.DropdownMenu
             android:id="@+id/dropdown_menu1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
             android:background="@android:color/darker_gray"
             />
 
-        <com.dreamliner.dropdownmenu.DropdownMenu
+        <com.dreamliner.lib.dropdownmenu.DropdownMenu
             android:id="@+id/dropdown_menu2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

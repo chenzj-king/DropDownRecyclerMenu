@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.dreamliner.dropdownmenu;
+package com.dreamliner.lib.dropdownmenu;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -33,11 +33,12 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.dreamliner.dropdownmenu.adapter.SelectAdapter;
-import com.dreamliner.dropdownmenu.interfaces.IGetTitle;
-import com.dreamliner.dropdownmenu.listener.OnDropdownItemClickListener;
-import com.dreamliner.dropdownmenu.listener.OnRecyclerItemClickListener;
-import com.dreamliner.dropdownmenu.widget.FontIcon;
+import com.dreamliner.dropdownmenu.R;
+import com.dreamliner.lib.dropdownmenu.adapter.SelectAdapter;
+import com.dreamliner.lib.dropdownmenu.interfaces.IGetTitle;
+import com.dreamliner.lib.dropdownmenu.listener.OnDropdownItemClickListener;
+import com.dreamliner.lib.dropdownmenu.listener.OnRecyclerItemClickListener;
+import com.dreamliner.lib.dropdownmenu.widget.FontIcon;
 
 /**
  * @author chenzj
@@ -52,7 +53,7 @@ public class DropdownMenu extends RelativeLayout {
 
     @SuppressWarnings("FieldCanBeLocal")
     private Context mContext;
-    private PopupWindow mPopupWindow;
+    private AdvancedPopupWindow mPopupWindow;
     private FixedHeightRecyclerView mRecyclerView;
     @SuppressWarnings("FieldCanBeLocal")
     private RelativeLayout mShadowLayout;
@@ -126,7 +127,7 @@ public class DropdownMenu extends RelativeLayout {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View popupWindow = inflater.inflate(R.layout.ddm_popup, (ViewGroup) getParent(), false);
 
-        mPopupWindow = new PopupWindow(popupWindow, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT, true);
+        mPopupWindow = new AdvancedPopupWindow(popupWindow, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT, true);
 
         mPopupWindow.setTouchable(true);
         mPopupWindow.setOutsideTouchable(true);

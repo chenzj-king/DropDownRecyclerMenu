@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dreamliner.dropdownmenu.adapter;
+package com.dreamliner.lib.dropdownmenu.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -21,7 +21,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.dreamliner.dropdownmenu.R;
-import com.dreamliner.dropdownmenu.interfaces.IGetTitle;
+import com.dreamliner.lib.dropdownmenu.interfaces.IGetTitle;
 
 /**
  * @author chenzj

@@ -13,13 +13,15 @@
  * limitations under the License.
  */
 
-package com.dreamliner.dropdownmenu;
+package com.dreamliner.lib.dropdownmenu;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
+
+import com.dreamliner.dropdownmenu.R;
 
 /**
  * @author chenzj

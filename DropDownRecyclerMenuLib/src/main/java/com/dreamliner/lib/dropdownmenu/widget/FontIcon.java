@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.dreamliner.dropdownmenu.widget;
+package com.dreamliner.lib.dropdownmenu.widget;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

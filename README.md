@@ -27,7 +27,7 @@
 
 ###  在xml中下面sample代码一样配置相关属性:  
 
-    <com.dreamliner.dropdownmenu.DropdownMenu
+    <com.dreamliner.lib.dropdownmenu.DropdownMenu
         android:id="@+id/dropdown_menu2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
